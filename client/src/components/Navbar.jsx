@@ -2,7 +2,7 @@ import React from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 
-import logo from "../../images/logo.png";
+import logo from "../../images/logo1.png";
 
 const NavBarItem = ({ title, classprops }) => (
   <li className={`mx-4 cursor-pointer ${classprops}`}>{title}</li>
@@ -17,11 +17,20 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="w-32 cursor-pointer" />
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
-        {["Barket", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
+        {["", "", "", ""].map((item, index) => (
           <NavBarItem key={item + index} title={item} />
         ))}
+ <ul class="flex space-x-4">
+  <li>About Us</li>
+  <li> <a href="https://rubanprasanthg.github.io/exchange_test/exchange.html" target="_blank">Market</a></li>
+  <li>Pricing</li>
+  <li>Exchanges</li>
+</ul>
+
         <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
           Login
+        </li>
+        <li>
         </li>
       </ul>
       <div className="flex relative">
@@ -37,7 +46,7 @@ const Navbar = () => {
             flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"
           >
             <li className="text-xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>
-            {["Market", "Exchange", "Tutorials", "Wallets"].map(
+            {["About Us", "Market", "Pricing", "Exchanges"].map(
               (item, index) => <NavBarItem key={item + index} title={item} classprops="my-2 text-lg" />,
             )}
           </ul>
