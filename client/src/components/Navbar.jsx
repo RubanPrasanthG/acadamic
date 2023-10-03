@@ -21,9 +21,9 @@ const Navbar = () => {
           <NavBarItem key={item + index} title={item} />
         ))}
  <ul class="flex space-x-4">
-  <li>About Us</li>
+  <li> <a href="https://rubanprasanthg.github.io/aboutsec/" target="_blank">About Us</a></li>
   <li> <a href="https://rubanprasanthg.github.io/exchange_test/exchange.html" target="_blank">Market</a></li>
-  <li> <a href="https://rubanprasanthg.github.io/aboutsec/" target="_blank">Pricing</a></li>
+  <li> Pricing</li>
   <li>Exchanges</li>
 </ul>
 
