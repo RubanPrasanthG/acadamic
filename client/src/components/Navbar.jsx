@@ -23,7 +23,7 @@ const Navbar = () => {
  <ul class="flex space-x-4">
   <li> <a href="https://rubanprasanthg.github.io/aboutsec/" target="_blank">About Us</a></li>
   <li> <a href="https://rubanprasanthg.github.io/exchange_test/exchange.html" target="_blank">Market</a></li>
-  <li> Pricing</li>
+  <li> <a href="https://mumbai.polygonscan.com/token/0xbC3257B0b3Dd24719003b37F7eE24aB59045B8b1" target="_blank">Transactions</a></li>
   <li>Exchanges</li>
 </ul>
 
