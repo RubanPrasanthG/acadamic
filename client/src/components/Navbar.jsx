@@ -24,7 +24,7 @@ const Navbar = () => {
   <li> <a href="https://rubanprasanthg.github.io/aboutsec/" target="_blank">About Us</a></li>
   <li> <a href="https://rubanprasanthg.github.io/exchange_test/exchange.html" target="_blank">Market</a></li>
   <li> <a href="https://mumbai.polygonscan.com/token/0xbC3257B0b3Dd24719003b37F7eE24aB59045B8b1" target="_blank">Transactions</a></li>
-  <li>Exchanges</li>
+  <li>Contact Us</li>
 </ul>
 
         <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">

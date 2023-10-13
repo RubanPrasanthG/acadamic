@@ -12,7 +12,7 @@ const Footer = () => (
         <p className="text-white text-base text-center mx-2 cursor-pointer">About Us</p>
         <p className="text-white text-base text-center mx-2 cursor-pointer">Market</p>
         <p className="text-white text-base text-center mx-2 cursor-pointer">Transactions</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Exchanges</p>
+        <p className="text-white text-base text-center mx-2 cursor-pointer">Contact Us</p>
       </div>
     </div>
 
